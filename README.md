@@ -1,27 +1,56 @@
-In this DevOps task, you need to build and deploy a full-stack CRUD application using the MEAN stack (MongoDB, Express, Angular 15, and Node.js). The backend will be developed with Node.js and Express to provide REST APIs, connecting to a MongoDB database. The frontend will be an Angular application utilizing HTTPClient for communication.  
+# 🚀 MEAN Stack CRUD App
+---
+MongoDB • Express • Angular 15 • Node.js • Docker • AWS
+## 📌 Overview
+---
 
-The application will manage a collection of tutorials, where each tutorial includes an ID, title, description, and published status. Users will be able to create, retrieve, update, and delete tutorials. Additionally, a search box will allow users to find tutorials by title.
+A simple MEAN Stack CRUD application deployed using Docker + NGINX on AWS EC2.
+## Features include:
 
-## Project setup
+Create, Update, Delete Tutorials
 
-### Node.js Server
+Search by Title
 
+REST API + Angular UI
+
+MongoDB storage
+
+Dockerized full-stack app
+
+## 🛠 Tech Stac
+---
+
+MongoDB • Express.js • Angular 15 • Node.js • Docker • NGINX • AWS
+
+## ⚙️ Run Locally
+---
+ ### Backend
 cd backend
-
 npm install
+node server.js
 
-You can update the MongoDB credentials by modifying the `db.config.js` file located in `app/config/`.
-
-Run `node server.js`
-
-### Angular Client
-
+### Frontend
 cd frontend
-
 npm install
+ng serve --port 8081
 
-Run `ng serve --port 8081`
+## 🐳 Docker
+---
+docker compose up -d
+Starts frontend, backend, MongoDB & NGINX.
 
-You can modify the `src/app/services/tutorial.service.ts` file to adjust how the frontend interacts with the backend.
+## ✨ Features
+---
 
-Navigate to `http://localhost:8081/`
+✔ CRUD Operations
+✔ Search
+✔ MongoDB
+✔ Angular UI
+✔ REST APIs
+✔ Dockerized
+✔ NGINX Reverse Proxy
+✔ AWS Hosted
+
+## 🙌 Author
+---
+Zubair Ahmad Beigh
